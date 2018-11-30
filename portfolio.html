@@ -6,46 +6,108 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/reset.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/style.css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
     <script src="main.js"></script>
 </head>
 
 <body>
-<header>
+    <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-                <a class="navbar-brand" href="#">Michael Wilson</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse flex-grow-1 text-right" id="myNavbar">
-                    <ul class="navbar-nav ml-auto flex-nowrap">
-                        <li class="nav-item"></li>
-                        <a href="./index.html" class="nav-link m-2 menu-item">About Me</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="./portfolio.html" class="nav-link m-2 menu-item">Portfolio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="./contact.html" class="nav-link m-2 menu-item">Contact</a>
-                        </li>
-                    </ul>
-        
+            <a class="navbar-brand" href="#">Michael Wilson</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse flex-grow-1 text-right" id="myNavbar">
+                <ul class="navbar-nav ml-auto flex-nowrap">
+                    <li class="nav-item"></li>
+                    <a href="./index.html" class="nav-link m-2 menu-item">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./portfolio.html" class="nav-link m-2 menu-item">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./contact.html" class="nav-link m-2 menu-item">Contact</a>
+                    </li>
+                </ul>
+
+            </div>
+        </nav>
+    </header>
+
+    <div class="container main-content">
+        <div class="row">
+            <div class="col-md-12 bg-white border my-border-secondary m-2 my-sm-4 cardbody">
+                <div class="page-header my-bg-reverse pt-2">
+                    <h2>Portfolio</h2>
+                    <hr>
                 </div>
-            </nav>
-</header>
+                <!-- Portfolio Items -->
+                <div class="row my-text-primary">
+                    <div class="col-md-12">
+                        <!-- <div class="card-deck justify-content-sm-left"> -->
+                        <div class="d-flex flex-column flex-sm-row align-items-center flex-wrap justify-content-sm-left">
+                            <!-- Simple image with overlay using card -->
+                            <a class="my-sm-image-wrapper" target="_blank" href="./assets/images/pic0.PNG">
+                                <div class="card bg-dark text-white m-2">
+                                    <img class="card-img border-0" src="./assets/images/pic0.PNG" alt="selfie">
+                                    <div class="card-img-overlay h-100 d-flex flex-column justify-content-end m-0 p-0">
+                                        <h4 class="card-title my-bg-primary text-center p-2">ME</h4>
+                                    </div>
+                                </div>
+                            </a>
 
+                            <a class="my-sm-image-wrapper" target="_blank" href="#">
+                                <div class="card bg-dark text-white m-2">
+                                    <img class="card-img border-0" src="./assets/images/pic1.PNG" alt="Grand Canyon">
+                                    <div class="card-img-overlay h-100 d-flex flex-column justify-content-end m-0 p-0">
+                                        <h4 class="card-title my-bg-primary text-center p-2">Grand Canyon</h4>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="my-sm-image-wrapper" target="_blank" href="#">
+                                <div class="card bg-dark text-white m-2">
+                                    <img class="card-img border-0" src="./assets/images/pic2.PNG" alt="selfie">
+                                    <div class="card-img-overlay h-100 d-flex flex-column justify-content-end m-0 p-0">
+                                        <h4 class="card-title my-bg-primary text-center p-2">Flower</h4>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="my-sm-image-wrapper" target="_blank" href="#">
+                                <div class="card bg-dark text-white m-2">
+                                    <img class="card-img border-0" src="./assets/images/pic3.PNG" alt="Glass Art">
+                                    <div class="card-img-overlay h-100 d-flex flex-column justify-content-end m-0 p-0">
+                                        <h4 class="card-title my-bg-primary text-center p-2">Glass Art</h4>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="my-sm-image-wrapper" target="_blank" href="#">
+                                <div class="card bg-dark text-white m-2">
+                                    <img class="card-img border-0" src="./assets/images/pic4.PNG" alt="Fish Art">
+                                    <div class="card-img-overlay h-100 d-flex flex-column justify-content-end m-0 p-0">
+                                        <h4 class="card-title my-bg-primary text-center p-2">Fish</h4>
+                                    </div>
+                                </div>
+                            </a>
+                           <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+                                crossorigin="anonymous">
+                            </script>
+                            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+                                integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+                                crossorigin="anonymous"></script>
+                            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+                                integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+                                crossorigin="anonymous"></script>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-    <script src = "https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity = "sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin = "anonymous" >
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-        crossorigin="anonymous"></script>
 </body>
 
 </html>
