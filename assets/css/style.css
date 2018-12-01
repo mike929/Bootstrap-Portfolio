@@ -2,10 +2,14 @@
  * This css file overrides and adds to the bootstrap stuff
 */
 body {
-    background-image: url("/assets/images/background.PNG");
+    background-image: url("../images/background.PNG");
     background-repeat: repeat;
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
 }
+
+/* #bg {
+    background-image: url("/assets/images/background.PNG");
+} */
 
 .card-img{
     width: 200px!important;
