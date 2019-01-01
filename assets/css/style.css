@@ -56,9 +56,22 @@ body {
 
 .navbar-custom {
     background-color: #4aaaa5;
-  }
+}
   
 /* .navbar-default {
     background-color: #4aaaa5!important;
     border-color: #E7E7E7!important;
 } */
+
+
+@media (min-width: 641px) and (max-width: 768px) {
+    .form-group {
+        width: 200px;
+    }
+}
+
+@media (min-width: 360px) and (max-width: 640px ) {
+    .form-group {
+        width: 300px;
+    }
+}
